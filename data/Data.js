@@ -539,39 +539,25 @@ const blogData = [
 const services = [
   {
     id: 0,
-    iClassName: "fa fa-book",
-    title: "Life changing",
+    iClassName: "fa fa-solar-panel",
+    title: "Electrical Installation and Solar PV",
     desc: "HBTDC provides its trainees with a network of skills and connections that will change their lives. With skills they obtain at the centre they will be able to seek employment, build businesses and become world leaders.",
     color: "red",
   },
   {
     id: 1,
-    iClassName: "fa fa-palette",
-    title: "Build connections",
+    iClassName: "fa fa-network-wired",
+    title: "Metal Work and  Welding",
     desc: "HBTDC prides itself in successfully transition 80% of its trainees into employment or further education within the first six months of graduating. Our success rate is support by our widespread connections with businesses nationwide.",
     color: "gray",
   },
   {
     id: 2,
-    iClassName: "fa fa-pencil-ruler",
-    title: "State of the art",
+    iClassName: "fa fa-wave-square",
+    title: "Mason Stone-Setting and Tiling",
     desc: "At HBTDC trainees are able to benefit from many exceptional training programs, where they will be exposed to state-of-the-art training techniques and equipment unseen in Somalia for over thirty years.",
     color: "green",
-  },
-  {
-    id: 3,
-    iClassName: "fa fa-analytics",
-    title: "Digital Marketing",
-    desc: "Boost your online presence and reach with our digital marketing strategies.",
-    color: "blue",
-  },
-  // {
-  //   id: 4,
-  //   iClassName: "fa fa-pencil-paintbrush",
-  //   title: "Product Design",
-  //   desc: "Bring your product ideas to life with our innovative design solutions.",
-  //   color: "orange",
-  // },
+  }
 ];
 
 const courseDataArray = [
@@ -989,33 +975,28 @@ const activitiesData = [
   {
     id: 0,
     color: "light_blue",
-    iClassName: "fa fa-book",
-    title: "Parenting Bill",
+    iClassName: "fa fa-certificate",
+    title: "Certificate and Diploma Training",
   },
   {
     id: 1,
     color: "green",
-    iClassName: "fa fa-graduation-cap",
-    title: "Engineering",
+    iClassName: "fa fa-pencil-ruler",
+    title: "Maintenance Training",
   },
   {
     id: 2,
     color: "orange",
-    iClassName: "fa fa-university",
-    title: "Sports Training",
+    iClassName: "fa fa-chalkboard-teacher",
+    title: "Training of Trainers",
   },
   {
     id: 3,
     color: "blue",
-    iClassName: "fa fa-books-medical",
-    title: "School Directly",
+    iClassName: "fa fa-comments",
+    title: "Consultancy Service",
   },
-  {
-    id: 4,
-    color: "green",
-    iClassName: "fa fa-analytics",
-    title: "Digital Marketing",
-  },
+
 ];
 
 export {

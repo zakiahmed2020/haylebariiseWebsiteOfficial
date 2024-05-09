@@ -1,5 +1,7 @@
 "use client"
 import getLanguageJSON from "@/app/Language/page";
+import { GiInspiration, GiSkills } from "react-icons/gi";
+import { MdEngineering } from "react-icons/md";
 
 const AboutSection3 = ({ style }) => {
   const Language=getLanguageJSON()
@@ -30,24 +32,24 @@ const AboutSection3 = ({ style }) => {
           </div>
           <div className="col-xl-6 col-lg-6 wow fadeInRight">
             <div className="tf__about_2_text">
-              <div className="tf__heading_area tf__heading_area_left mb_25">
+              <div className="tf__heading_area tf__heading_area_left mb_40">
                 <h5>{Language.About.h5}</h5>
                 {/* <h2>Complete About Students University Education.</h2> */}
               </div>
               <p>
-                {Language.About.p}
-              </p>
-              <p>
                 {Language.About.p2}
               </p>
-              <ul>
+              <p>
+                {Language.About.p21}
+              </p>
+              <p>
+                {Language.About.p22}
+              </p>
+              {/* <ul>
                 <li>
                   <div className="icon">
-                    <img
-                      src="images/about_2_icon_1.jpg"
-                      alt="about"
-                      className="img-fluid w-100"
-                    />
+                  
+                    <GiInspiration className="img-fluid w-100 text-primary"  />
                   </div>
                   <div className="text">
                     <h4>{Language.About.h4}</h4>
@@ -58,11 +60,8 @@ const AboutSection3 = ({ style }) => {
                 </li>
                 <li>
                   <div className="icon">
-                    <img
-                      src="images/about_2_icon_2.jpg"
-                      alt="about"
-                      className="img-fluid w-100"
-                    />
+                   
+                    <MdEngineering className="img-fluid w-100 text-primary" />
                   </div>
                   <div className="text">
                     <h4>{Language.About.h42}</h4>
@@ -73,11 +72,8 @@ const AboutSection3 = ({ style }) => {
                 </li>
                 <li>
                   <div className="icon">
-                    <img
-                      src="images/about_2_icon_3.jpg"
-                      alt="about"
-                      className="img-fluid w-100"
-                    />
+                   
+                  <GiSkills  className="img-fluid w-100 text-primary"/>
                   </div>
                   <div className="text">
                     <h4>{Language.About.h43}</h4>
@@ -86,22 +82,8 @@ const AboutSection3 = ({ style }) => {
                     </p>
                   </div>
                 </li>
-                <li>
-                  <div className="icon">
-                    <img
-                      src="images/about_2_icon_4.jpg"
-                      alt="about"
-                      className="img-fluid w-100"
-                    />
-                  </div>
-                  <div className="text">
-                    <h4>{Language.About.h44}</h4>
-                    <p>
-                      {Language.About.p6}
-                    </p>
-                  </div>
-                </li>
-              </ul>
+             
+              </ul> */}
             </div>
           </div>
           <div className="col-12 mt_110 xs_mt_100 wow fadeInUp">

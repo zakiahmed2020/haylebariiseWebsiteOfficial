@@ -14,10 +14,9 @@ import NavbarSection from "@/component/navbar/NavbarSection";
 import TopbarSection from "@/component/topbar/TopbarSection";
 import ScrollToTopButton from "@/component/utils/ScrollToTopButton";
 import VideoSection from "@/component/video/VideoSection";
-export const metadata = {
-  title: "Hayle Bariise Technical Development Center",
-  description: "Developed by Azizur Rahman",
-};
+
+
+
 export default function Home3() {
   return (
     <div className="home_3">

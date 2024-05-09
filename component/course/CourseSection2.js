@@ -6,6 +6,7 @@ import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
 import Box from "@mui/material/Box";
 import Tab from "@mui/material/Tab";
+import { CalendarDays } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
@@ -69,7 +70,7 @@ const CourseSection2 = () => {
     }
   };
   return (
-    <section className="tf__courses_2 tf__courses_3 mt-4">
+    <section className="tf__courses_2 tf__courses_3 mt_110">
       <div className="container">
         <div className="row wow fadeInUp">
           <div className="col-xl-7 col-xxl-6 col-md-8 col-lg-6 m-auto">
@@ -80,7 +81,7 @@ const CourseSection2 = () => {
           </div>
         </div>
         <div className="row">
-          {Course?.map((item) => (
+          {Course?.slice(0,5).map((item) => (
             <div className="col-xl-4 col-md-6 wow fadeInUp" key={item.id}>
               <div className="tf__single_courses">
                 <div className="tf__single_courses_img">
@@ -104,16 +105,17 @@ const CourseSection2 = () => {
                 </ul> */}
                 <div className="tf__single_courses_text">
                   <p className="title">{item.title}</p>
-                  <div className="row mt-1">
+                  <div className="row mt-3">
                     {/* <div></ */}
                     <div className="col-6 d-flex">
                       <div>
-                        <FaCalendar
-                          style={{ fontSize: "35px", color: "#4c75ae" }}
-                        />
+                        {/* <FaCalendar
+                          style={{ fontSize: "24px", color: "#4c75ae" }}
+                        /> */}
+                        <CalendarDays size={"30px"} color="#3bb995" />
                       </div>
                       <div className="mx-1">
-                        <p style={{ fontSize: "13px", color: "#4c75ae" }}>
+                        <p style={{ fontSize: "14px",textTransform:"uppercase",fontWeight:"bold" }}>
                           Start Date
                         </p>
                         <p style={{ fontSize: "12px", color: "#4c75ae" }}>
@@ -124,11 +126,11 @@ const CourseSection2 = () => {
                     <div className="col-6 d-flex">
                       <div>
                         <GiDuration
-                          style={{ fontSize: "35px", color: "#4c75ae" }}
+                          style={{ fontSize: "30px", color: "#3bb995" }}
                         />
                       </div>
                       <div className="mx-1">
-                        <p style={{ fontSize: "13px", color: "#4c75ae" }}>
+                        <p style={{ fontSize: "14px",textTransform:"uppercase",fontWeight:"bold" }}>
                           Duration
                         </p>
                         <p style={{ fontSize: "12px", color: "#4c75ae" }}>
@@ -142,11 +144,11 @@ const CourseSection2 = () => {
                     <div className="col-6 d-flex">
                       <div>
                         <PiCertificateFill
-                          style={{ fontSize: "35px", color: "#4c75ae" }}
+                          style={{ fontSize: "30px", color: "#3bb995" }}
                         />
                       </div>
                       <div className="mx-1">
-                        <p style={{ fontSize: "13px", color: "#4c75ae" }}>
+                        <p style={{ fontSize: "14px",textTransform:"uppercase",fontWeight:"bold"}}>
                           Study Mode
                         </p>
                         <p style={{ fontSize: "12px", color: "#4c75ae" }}>
@@ -157,11 +159,11 @@ const CourseSection2 = () => {
                     <div className="col-6 d-flex">
                       <div>
                         <MdOutlineAccessTimeFilled
-                          style={{ fontSize: "35px", color: "#4c75ae" }}
+                          style={{ fontSize: "30px", color: "#3bb995" }}
                         />
                       </div>
                       <div className="mx-1">
-                        <p style={{ fontSize: "13px", color: "#4c75ae" }}>
+                        <p style={{ fontSize: "14px",textTransform:"uppercase",fontWeight:"bold" }}>
                           Weekly Study
                         </p>
                         <p style={{ fontSize: "12px", color: "#4c75ae" }}>
@@ -176,9 +178,10 @@ const CourseSection2 = () => {
                       class="btn "
                       onClick={() => handleShow(item)}
                       style={{
-                        border: "2px solid #4c75ae",
-                        borderRadius: "10px",
+                        border: "1px solid #4c75ae",
+                        borderRadius: "4px",
                         color: "#4c75ae",
+                        
                       }}
                     >
                       Read More

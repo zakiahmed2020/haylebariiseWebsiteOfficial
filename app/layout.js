@@ -7,11 +7,15 @@ import "react-toastify/dist/ReactToastify.css";
 import "@/public/css/style.css";
 import { ToastContainer } from "react-toastify";
 
+import { Readex_Pro } from "next/font/google";
+
+const readExPro = Readex_Pro({style:"normal",display:"auto",weight:"variable",subsets:["latin"],variable:"--headingFont"});
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <EduorProvider>
-        <body>
+        <body className={readExPro.className+" "+readExPro.variable}>
           {children}
           <ToastContainer />
         </body>

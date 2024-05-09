@@ -13,7 +13,7 @@ export default function About() {
   return (
     <Layout>
       <BreadcrumbSection header="About us" title="About us" />
-      <section className="tf__about_us_page mt_195 xs_mt_100">
+      <section className="tf__about_us_page mt_195 mt_110">
         <AboutSection3 style="" />
         <PopularServiceSection2 />
         {/* <CourseSection style="tf__popular_courses" /> */}

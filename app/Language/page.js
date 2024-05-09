@@ -4,23 +4,22 @@ const getLanguageJSON = () => {
   const languageJSON = {
     Banner: {
       h5: language === 'EN' ? 'Welcome to Hayle Bariise!' : 'kuso Dhawoow Hayle Bariise!',
-      h1: language === 'EN' ? 'Unlock your' : 'Soo Muuji',
-      span: language === 'EN' ? 'potential' : 'kartida',
-      p: language === 'EN' ? 'At Hayle Barise Technical Development Centre we believe that it is imperative to set high expectations for our trainees and ourselves to ensure that all our students achieve greatness.' : 'Xarunta Horumarinta Farsamada ee Hayle Bariise waxaan aaminsanahay inay lama huraan tahay in la dejiyo rajooyinka ardaydeena iyo nafteena si aan u hubinno in dhammaan ardaydeena ay gaadhaan heer sare.',
-      Link: language === 'EN' ? 'View Courses' : 'Daawo Koorsooyinka',
+      h1: language === 'EN' ? 'Empowering Futures' : 'Empowering Futures',
+      p: language === 'EN' ? 'Explore Hayle Barise and unlock your potential.' : 'Explore Hayle Barise and unlock your potential.',
+      Link: language === 'EN' ? 'All Courses' : 'Daawo Koorsooyinka',
     },
     About: {
-      h5: language === 'EN' ? 'OUR About Us!' : 'somali',
-      p1: language === 'EN' ? ' Hayle Barise Technical Development Centre is a dynamic and inspirational place to study, merging raw technical talent with academic brilliance.' : 'Xarunta Horumarinta Farsamada ee Hayle Bariise waa meel firfircoon oo dhiirigelin leh in wax lagu barto, iyada oo ku daraysa xirfadda farsamada cayriin iyo hufnaan tacliimeed.',
-      p2: language === 'EN' ? 'HBTDC provides a unique service through the use of state-of-the-art equipment and modern teaching standards.' : 'HBTDC waxay bixisaa adeeg gaar ah iyadoo la isticmaalayo qalab casri ah iyo heerarka waxbarida casriga ah.',
-      h4: language === 'EN' ? 'Successflly Trained' : 'Si guul leh loo tababaray',
-      p3: language === 'EN' ? 'Business tailored it design, management support services.' : 'Ganacsigu waxa uu ku habeeyey qaabayntiisa, adeegyada taageerada maamulka.',
-      h42: language === 'EN' ? 'Education Growth' : 'Kobaca Waxbarashada',
-      p4: language === 'EN' ? 'Business tailored it design, management support services.' : 'Ganacsigu waxa uu ku habeeyey qaabayntiisa, adeegyada taageerada maamulka.',
-      h43: language === 'EN' ? 'Students Trained' : 'Ardayda la tababaray',
-      p5: language === 'EN' ? 'Business tailored it design, management support services.' : 'Ganacsigu waxa uu ku habeeyey qaabayntiisa, adeegyada taageerada maamulka.',
-      h44: language === 'EN' ? 'Successflly Trained' : 'Si guul leh loo tababaray',
-      p6: language === 'EN' ? 'Business tailored it design, management support services.' : 'Ganacsigu waxa uu ku habeeyey qaabayntiisa, adeegyada taageerada maamulka.'
+      h5: language === 'EN' ? 'Message for the Director' : 'Message for the Director',
+      p: language === 'EN' ? ' Hayle Barise looks to promote the development of skills and competencies across Somalia.' : 'Hayle Barise looks to promote the development of skills and competencies across Somalia.',
+     p2:`Welcome to Hayle Barise Technical Development Centre`,
+     p21:"Our core values and goals for the centre will be centred on commitment.",
+     p22:"When trainees are committed to their studies and driven to succeed they will achieve their goals.",
+      h4: language === 'EN' ? 'Environment' : 'Environment',
+      p3: language === 'EN' ? 'Dynamic and Inspirational Learning Environment' : 'Dynamic and Inspirational Learning Environment.',
+      h42: language === 'EN' ? 'Equipment' : 'Equipment',
+      p4: language === 'EN' ? 'Cutting-edge equipment and modern teaching standards.' : 'Cutting-edge equipment and modern teaching standards.',
+      h43: language === 'EN' ? 'Empowerment' : 'Empowerment',
+      p5: language === 'EN' ? 'Transformative skills and connections towards employment, entrepreneurship and global leadership.' : 'Transformative skills and connections towards employment, entrepreneurship and global leadership.'
     }
   };
 

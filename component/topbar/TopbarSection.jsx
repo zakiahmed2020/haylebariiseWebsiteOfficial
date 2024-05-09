@@ -1,6 +1,8 @@
 "use client";
 
 import { useEduorContext } from "@/context/EduorContext";
+import companyProfile from "@/data/company";
+
 
 const TopbarSection = ({ style }) => {
   const { Language, setLanguage } = useEduorContext();
@@ -10,19 +12,36 @@ const TopbarSection = ({ style }) => {
       <div className="container">
         <div className="row">
           <div className="col-xl-6 col-md-6 d-none d-md-block">
+           
             <div className="tf__topbar_left d-flex flex-wrap align-items-center">
-              <p>Visit our social pages:</p>
+            
               <ul className="d-flex flex-wrap">
                 <li>
+                  <a href="#">
+                    <i className="fa fa-map-marker-alt"></i>
+                    {companyProfile.address}
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-phone"></i>
+                    {companyProfile.contact}
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-xl-6 col-md-6">
+            
+            <div className="tf__topbar_right">
+          
+              <ul className="d-flex flex-wrap">
+              <li>
                   <a href="#">
                     <i className="fab fa-facebook-f"></i>
                   </a>
                 </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
+               
                 <li>
                   <a href="#">
                     <i className="fab fa-twitter"></i>
@@ -30,20 +49,8 @@ const TopbarSection = ({ style }) => {
                 </li>
                 <li>
                   <a href="#">
-                    <i className="fab fa-pinterest-p"></i>
+                    <i className="fab fa-youtube"></i>
                   </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-xl-6 col-md-6">
-            <div className="tf__topbar_right">
-              <ul className="d-flex flex-wrap">
-                <li>
-                  <a href="#">login</a>
-                </li>
-                <li>
-                  <a href="#">Verify</a>
                 </li>
                 <li>
                   {Language == "EN" ? (

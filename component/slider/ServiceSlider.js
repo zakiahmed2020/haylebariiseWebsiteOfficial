@@ -7,7 +7,7 @@ const ServiceSlider = () => {
   return (
     <Slider
       className="row popular_service_slider wow fadeInUp"
-      slidesToShow={4} // Set the number of slides to show
+      slidesToShow={3} // Set the number of slides to show
       infinite={true}
       dots={true}
       arrows={false}

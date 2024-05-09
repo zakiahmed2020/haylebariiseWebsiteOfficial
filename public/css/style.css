@@ -28,7 +28,7 @@ CSS INDEX
 /*==================================
     GLOBAL CSS START
 ==================================*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&amp;family=Rubik:wght@300;400;500;600;700;800;900&amp;display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&amp;family=Rubik:wght@300;400;500;600;700;800;900&amp;display=swap"); */
 
 * {
   margin: 0;
@@ -117,8 +117,8 @@ button {
   --paraColor: #636363;
   --ratingColor: #f1cc38;
   --colorWhite: #ffffff;
-  --paraFont: "Rubik", sans-serif;
-  --headingFont: "Montserrat", sans-serif;
+  /* --paraFont: "Rubik", sans-serif;
+  --headingFont: "Montserrat", sans-serif; */
   --box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -329,13 +329,14 @@ button {
 .tf__breadcrumb .container::after {
   position: absolute;
   content: "";
-  background: url(../images/imagebot.jpg);
+  background: url(../images/myimages/aboutImg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 300px;
-  height: 450px;
-  /* top: 225px; */
+  width: 500px;
+  height: 500px;
+  aspect-ratio: 16/9;
+  top: -50px; 
   right: 0;
   z-index: 1;
 }
@@ -344,7 +345,6 @@ button {
   font-size: 60px;
   font-weight: 700;
   text-transform: capitalize;
-  margin-bottom: 15px;
 }
 
 .tf__breadcrumb_text ul {
@@ -2517,8 +2517,8 @@ button {
 }
 
 .tf__about_2_text ul li .icon {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 10px;
 }
 
@@ -2774,7 +2774,7 @@ button {
 }
 
 .tf__popular_service_single:hover::after {
-  background: #4c75af;
+  background: rgba(76, 117, 175, 0.721);
 }
 
 .tf__popular_service_single:hover h3,
@@ -4025,7 +4025,7 @@ button {
 /* topbar start */
 .tf__topbar {
   width: 100%;
-  height: 50px;
+  height: 55px;
   background: #4c75af;
   z-index: 1;
 }
@@ -4040,7 +4040,7 @@ button {
 }
 
 .tf__topbar_left ul li a {
-  font-size: 16px;
+  font-size: 17px;
   color: var(--colorWhite);
   margin-left: 15px;
   transition: all linear 0.3s;
@@ -4050,13 +4050,18 @@ button {
   -o-transition: all linear 0.3s;
 }
 
-.tf__topbar_left ul li a:hover {
+.tf__topbar_left ul li a i{ 
+  color:var(--colorPrimary);
+  margin-right: 10px;
+}
+
+/* .tf__topbar_left ul li a:hover {
   transform: rotate(25deg);
   -webkit-transform: rotate(25deg);
   -moz-transform: rotate(25deg);
   -ms-transform: rotate(25deg);
   -o-transform: rotate(25deg);
-}
+} */
 
 .tf__topbar_right > ul {
   line-height: 50px;
@@ -4068,7 +4073,7 @@ button {
 }
 
 .tf__topbar_right > ul > li > a {
-  font-size: 14px;
+  font-size: 17px;
   color: var(--colorWhite);
   text-transform: capitalize;
   transition: all linear 0.3s;
@@ -4858,7 +4863,7 @@ button {
 
 /* footer 2 start */
 .tf__footer_2 .tf__footer_apply {
-  background-image: url(../images/footer_apply_bg.jpg);
+  background-image: url(../images/myimages/teamImage.jpg);
 }
 .tf__footer_2 .tf__footer_overlay {
   background: #002f6cf5;
@@ -5518,10 +5523,10 @@ select.select_js.form-select {
   background: var(--colorGreen);
 }
 .tf__footer_3 .tf__footer_apply {
-  background-image: url(../images/footer_apply_bg2.jpg);
+  background-image: url(../images/myimages/teamImage.jpg);
 }
 .tf__footer_3 .tf__footer_apply .tf__footer_apply_overlay {
-  background: #4c75af;
+  background: rgba(76, 117, 175, 0.71);
 }
 
 .tf__footer_3 .tf__footer_apply .venobox i {
@@ -10182,4 +10187,19 @@ section.tf__counter_3 {
   .tf__heading_area h2 {
     font-size: 30px;
   }
+}
+
+.text-primary {
+  color:var(--colorPrimary) !important;
+}
+
+.text-warning{
+  color:var(--ratingColor) !important;
+}
+.text-secondary{
+  color:var(--colorBlue) !important;
+}
+
+.text-accent{
+  color:var(--colorBlack) !important;
 }

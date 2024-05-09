@@ -18,8 +18,7 @@ const BannerSection3 = () => {
             <div className="tf__banner_text wow fadeInUp ">
               <h5>{Language?.Banner?.h5}</h5>
               <h1>
-              {Language?.Banner?.h1} <br></br>
-                <span>{Language?.Banner?.span}</span>
+              {Language?.Banner?.h1}
               </h1>
               <p>
               {Language?.Banner?.p}

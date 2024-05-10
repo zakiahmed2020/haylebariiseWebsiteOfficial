@@ -7,6 +7,8 @@ import CategorySection3 from "@/component/category/CategorySection3";
 
 import CourseSection2 from "@/component/course/CourseSection2";
 import FooterSection2 from "@/component/footer/FooterSection2";
+import HomeAboutSection from "@/component/home/AboutSection";
+import WhyStudy from "@/component/home/whyStudy";
 import VideoModal from "@/component/modal/VideoModal";
 import NavbarSection from "@/component/navbar/NavbarSection";
 // import TeamSection from "@/component/team/TeamSection";
@@ -27,16 +29,20 @@ export default function Home3() {
       />
       <BannerSection3 />
       <CategorySection3 />
-      <AboutSection3 style="about_3" />
+      <HomeAboutSection style="about_3" />
       {/* <CustomAboutSection /> */}
       {/* <ContactSection /> */}
       <VideoSection />
       {/* <EventSection section="tf__event mt_95" startIndex={0} endIndex={4} /> */}
+      
+
       <CourseSection2 />
+
       {/* <CounterSection /> */}
       {/* <TeamSection style="tf__team_3 pt_250 pb_100" /> */}
       {/* <ContactSection2 /> */}
       <ActivitySection2 style="tf__activities_3 tf__activities_slider_area mt_100 pt_95 pb_100" />
+      <WhyStudy />
       <BlogSection2 />
       <FooterSection2
         style="tf__footer_3"

@@ -9,6 +9,8 @@ const getLanguageJSON = () => {
       Link: language === 'EN' ? 'All Courses' : 'Daawo Koorsooyinka',
     },
     About: {
+      homeh5: language === 'EN' ? 'About Us' : 'Nagu Saabsan',
+      homep: language === 'EN' ? 'Hayle Barise Technical Development Centre is a vibrant hub for learning merging raw technical talent with academic excellence.' : 'Hayle Barise Technical Development Centre is a vibrant hub for learning merging raw technical talent with academic excellence.',
       h5: language === 'EN' ? 'Message for the Director' : 'Message for the Director',
       p: language === 'EN' ? ' Hayle Barise looks to promote the development of skills and competencies across Somalia.' : 'Hayle Barise looks to promote the development of skills and competencies across Somalia.',
      p2:`Welcome to Hayle Barise Technical Development Centre`,

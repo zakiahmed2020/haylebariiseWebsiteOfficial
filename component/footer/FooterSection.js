@@ -1,3 +1,4 @@
+import companyProfile from "@/data/company";
 import Link from "next/link";
 import React from "react";
 
@@ -17,8 +18,7 @@ const FooterSection = () => {
                   />
                 </Link>
                 <p>
-                  Nemo enim ipsam voluptate quia voluptas sit aspernatur aut
-                  odit aut fugit, sed quia magni this dolores eos qui ratione .
+                Explore Hayle Barise and unlock your potential.
                 </p>
                 <ul className="d-flex flex-wrap">
                   <li>
@@ -36,14 +36,10 @@ const FooterSection = () => {
                       <i className="fab fa-twitter"></i>
                     </a>
                   </li>
+                  
                   <li>
                     <a href="#">
-                      <i className="fab fa-pinterest-p"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-google-plus-g"></i>
+                      <i className="fab fa-youtube"></i>
                     </a>
                   </li>
                 </ul>
@@ -62,26 +58,21 @@ const FooterSection = () => {
                   <li>
                     <Link href="/contact">Contact</Link>
                   </li>
-                  {/* <li>
-                    <Link href="/contact">Business Contact</Link>
-                  </li>
-                  <li>
-                    <Link href="/contact">Make An Appointment</Link>
-                  </li> */}
+                  
                 </ul>
               </div>
             </div>
             <div className="col-xl-3 col-sm-10 col-md-7 col-lg-col-lg-6">
               <div className="tf__footer_content xs_mt_30">
                 <h3>Our Contacts</h3>
-                <p>Adress:  Balad Road Mogadishu, Somalia</p>
+                <p>Adress:  {companyProfile.address}</p>
                 <p>
-                  <span> Phone:+252 61 764 9609</span>
+                  <span> Phone:{companyProfile.contact}</span>
                   {/* <span>Fax: +8 846512 456 788</span> */}
                 </p>
                 <p>
-                  <span>Email: info@haylebarise.com </span>
-                  <span>Website: yourwebsite.com</span>
+                  <span>Email: {companyProfile.email} </span>
+                  <span>Website: {companyProfile.website}</span>
                 </p>
               </div>
             </div>
@@ -102,10 +93,10 @@ const FooterSection = () => {
           <div className="row">
             <div className="col-12">
               <div className="tf__copyright">
-                <p>Copyright ©Eduor all rights reserved.</p>
+                <p>Copyright ©Hayle Bariise all rights reserved.</p>
                 <ul className="d-flex flex-wrap">
                   <li>
-                    <Link href="/privacy-policy">Privacy policy</Link>
+                    <Link href="#">Privacy policy</Link>
                   </li>
                   <li>
                     <Link href="/about">About</Link>

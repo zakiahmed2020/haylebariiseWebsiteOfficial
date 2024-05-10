@@ -319,7 +319,8 @@ button {
   background-size: cover !important;
   padding-top: 245px;
   padding-bottom: 180px;
-  background-image: url(../images/breadcrumb_bg_1.jpg);
+  /* background-image: url(../images/breadcrumb_bg_1.jpg); */
+  background-color:rgba(76, 117, 175, 0.2);
 }
 
 .tf__breadcrumb .container {
@@ -329,7 +330,7 @@ button {
 .tf__breadcrumb .container::after {
   position: absolute;
   content: "";
-  background: url(../images/myimages/aboutImg.png);
+  /* background: url(../images/myimages/aboutImg.png); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -10202,4 +10203,16 @@ section.tf__counter_3 {
 
 .text-accent{
   color:var(--colorBlack) !important;
+}
+
+.bg-primary {
+  background-color: #4c75ae !important;
+  color: white;
+}
+.whystudy > *{
+  color:white !important;
+}
+
+.text-sec{
+  color:rgba(189, 244, 228, 1);
 }

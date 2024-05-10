@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 // import p from "next/p";
 import { useEffect, useState } from "react";
 import Modal from "react-bootstrap/Modal";
@@ -91,13 +92,13 @@ const BlogSection2 = () => {
                       <p className="title">{item.title}</p>
 
                       <p>{item.description}</p>
-                      <button
+                      <Link
                         className="read_btn"
-                        onClick={() => handleShow(item)}
+                        href={`blog/${item.slug}`}
                       >
-                        Read More{" "}
+                        Read More
                         <i className="fas fa-chevron-circle-right"></i>
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>

@@ -26,10 +26,10 @@ export const EduorProvider = ({ children }) => {
     };
   }, []);
   // Video Modal
-  const [showVideo, setShowVideo] = useState(false);
+  const [showVideo, setShowVideo] = useState({url:"", state:false});
 
-  const handleVideoClose = () => setShowVideo(false);
-  const handleVideoShow = () => setShowVideo(true);
+  const handleVideoClose = () => setShowVideo({url:"", state:false});
+  const handleVideoShow = (url) => setShowVideo({url:url, state:true});
 
   // Sidebar
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);

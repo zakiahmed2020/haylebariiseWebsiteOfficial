@@ -8,6 +8,7 @@ import CategorySection3 from "@/component/category/CategorySection3";
 import CourseSection2 from "@/component/course/CourseSection2";
 import FooterSection2 from "@/component/footer/FooterSection2";
 import HomeAboutSection from "@/component/home/AboutSection";
+import Suporters from "@/component/home/Suporters";
 import WhyStudy from "@/component/home/whyStudy";
 import VideoModal from "@/component/modal/VideoModal";
 import NavbarSection from "@/component/navbar/NavbarSection";
@@ -44,6 +45,7 @@ export default function Home3() {
       <ActivitySection2 style="tf__activities_3 tf__activities_slider_area mt_100 pt_95 pb_100" />
       <WhyStudy />
       <BlogSection2 />
+      <Suporters />
       <FooterSection2
         style="tf__footer_3"
         logo="images/myimages/loghaylebariise.png"

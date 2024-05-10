@@ -8,7 +8,7 @@ const VideoModal = () => {
   const embedUrl = "https://www.youtube.com/embed/nbfyjQUbdIQ";
   return (
     <Modal
-      show={showVideo}
+      show={showVideo.state}
       onHide={handleVideoClose}
       size="lg"
       centered
@@ -21,7 +21,7 @@ const VideoModal = () => {
           <div className="modal-video-movie-wrap">
             <iframe
               className="video-modal-iframe"
-              src={embedUrl}
+              src={showVideo.url}
               allow="autoplay; accelerometer; encrypted-media; gyroscope; picture-in-picture"
               llowFullScreen
             />

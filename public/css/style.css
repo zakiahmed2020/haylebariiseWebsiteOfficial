@@ -6379,6 +6379,9 @@ select.select_js.form-select {
 .mt_65 {
   margin-top: 65px;
 }
+.pb_95 {
+  padding-bottom: 95px;
+}
 .pb_45 {
   padding-bottom: 45px;
 }
@@ -10215,4 +10218,11 @@ section.tf__counter_3 {
 
 .text-sec{
   color:rgba(189, 244, 228, 1);
+}
+
+.suporters img{
+  width: "100%" !important;
+  max-width: 608px !important;
+  height: 100px !important;
+  object-fit: scale-down !important;
 }

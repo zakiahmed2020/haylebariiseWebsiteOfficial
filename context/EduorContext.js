@@ -7,7 +7,7 @@ const EduorContext = createContext();
 export const EduorProvider = ({ children }) => {
   // Sticky Header Section on Scroll
   const [isHeaderFixed, setIsHeaderFixed] = useState(false);
-  const [Language, setLanguage] = useState(localStorage.getItem('language') || 'EN');
+  const [Language, setLanguage] = useState(typeof localStorage !== 'undefined' &&  localStorage?.getItem('language') || 'EN');
 
   useEffect(() => {
     const handleScroll = () => {

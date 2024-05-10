@@ -1,6 +1,7 @@
+"use client"
 import { useLanguage } from "./useLanguage";
 const getLanguageJSON = () => {
-  const language = useLanguage();
+  const language = useLanguage() ?? "EN";
   const languageJSON = {
     Banner: {
       h5: language === 'EN' ? 'Welcome to Hayle Bariise!' : 'kuso Dhawoow Hayle Bariise!',

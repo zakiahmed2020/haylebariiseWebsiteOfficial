@@ -1,5 +1,5 @@
 "use client"
-import getLanguageJSON from "@/app/Language/page";
+import getLanguageJSON from "@/app/Language/language";
 import { GiInspiration, GiSkills } from "react-icons/gi";
 import { MdEngineering } from "react-icons/md";
 

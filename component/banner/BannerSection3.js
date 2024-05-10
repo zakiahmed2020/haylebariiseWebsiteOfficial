@@ -1,5 +1,5 @@
 "use client";
-import getLanguageJSON from "@/app/Language/page";
+import getLanguageJSON from "@/app/Language/language";
 import { useEduorContext } from "@/context/EduorContext";
 import Link from "next/link";
 

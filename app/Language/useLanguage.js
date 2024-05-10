@@ -1,3 +1,4 @@
+"use client"
 import { useEduorContext } from '@/context/EduorContext';
 // import { useContext } from 'react';
 

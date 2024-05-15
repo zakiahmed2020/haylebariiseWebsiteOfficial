@@ -10226,3 +10226,7 @@ section.tf__counter_3 {
   height: 100px !important;
   object-fit: scale-down !important;
 }
+
+.bg-learn{
+  background: url(../images/learnBg.png) #4c75ae;
+}

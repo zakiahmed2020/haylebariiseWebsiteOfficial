@@ -25,7 +25,7 @@ export default function BlogDetails({params}) {
         setLoading(true)
       try {
         const getData = await fetch(
-          `http://localhost:3001/blogs/slug/${slug}`
+          `${process.env.BASE_URL}/blogs/slug/${slug}`
         );
         const res = await getData.json();
         // console.log(res)

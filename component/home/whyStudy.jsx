@@ -2,7 +2,7 @@ import React from 'react'
 
 const WhyStudy = () => {
   return (
-    <div className='bg-primary whystudy pt_95 pb_95'>
+    <div className='bg-learn whystudy pt_95 pb_95'>
 
         <div className="container mx-auto tex-white">
             <h1 className='text-sec'>Why study</h1>

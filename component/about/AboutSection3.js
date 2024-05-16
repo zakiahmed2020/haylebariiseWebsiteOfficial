@@ -45,11 +45,11 @@ const AboutSection3 = ({ style }) => {
               <p>
                 {Language.About.p22}
               </p>
-              {/* <ul>
+              <ul>
                 <li>
                   <div className="icon">
-                  
-                    <GiInspiration className="img-fluid w-100 text-primary"  />
+                  <i class="fa-duotone fa-lightbulb-cfl-on text-primary fs-1"></i>
+                    {/* <GiInspiration className="img-fluid w-100 text-primary"  /> */}
                   </div>
                   <div className="text">
                     <h4>{Language.About.h4}</h4>
@@ -61,7 +61,9 @@ const AboutSection3 = ({ style }) => {
                 <li>
                   <div className="icon">
                    
-                    <MdEngineering className="img-fluid w-100 text-primary" />
+                    {/* <MdEngineering className="img-fluid w-100 text-primary" /> */}
+                    <i class="fa-duotone fa-screwdriver-wrench text-primary fs-1"></i>
+                  
                   </div>
                   <div className="text">
                     <h4>{Language.About.h42}</h4>
@@ -73,7 +75,9 @@ const AboutSection3 = ({ style }) => {
                 <li>
                   <div className="icon">
                    
-                  <GiSkills  className="img-fluid w-100 text-primary"/>
+                  {/* <GiSkills  className="img-fluid w-100 text-primary"/> */}
+    
+                  <i class="fa-duotone fa-brain-arrow-curved-right text-primary fs-1"></i>
                   </div>
                   <div className="text">
                     <h4>{Language.About.h43}</h4>
@@ -83,7 +87,7 @@ const AboutSection3 = ({ style }) => {
                   </div>
                 </li>
              
-              </ul> */}
+              </ul>
             </div>
           </div>
           <div className="col-12 mt_110 xs_mt_100 wow fadeInUp">

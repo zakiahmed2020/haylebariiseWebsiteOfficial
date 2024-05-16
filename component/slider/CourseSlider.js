@@ -78,12 +78,12 @@ const CourseSlider = ({Course,handleShow}) => {
                   <p className="title">{item.title}</p>
                   <div className="row mt-3">
                     {/* <div></ */}
-                    <div className="col-6 d-flex">
+                    <div className="col-6 d-flex align-items-start">
                       <div>
                         {/* <FaCalendar
                           style={{ fontSize: "24px", color: "#4c75ae" }}
                         /> */}
-                        <CalendarDays size={"30px"} color="#3bb995" />
+                        <i class="fa-regular fa-calendar-lines-pen text-success" style={{fontSize:"24px"}}></i>
                       </div>
                       <div className="mx-1">
                         <p style={{ fontSize: "14px",textTransform:"uppercase",fontWeight:"bold" }}>
@@ -94,11 +94,10 @@ const CourseSlider = ({Course,handleShow}) => {
                         </p>
                       </div>
                     </div>
-                    <div className="col-6 d-flex">
+                    <div className="col-6 d-flex align-items-start">
                       <div>
-                        <GiDuration
-                          style={{ fontSize: "30px", color: "#3bb995" }}
-                        />
+                       
+                        <i class="fa-regular fa-hourglass-clock text-success" style={{fontSize:"24px"}}></i>
                       </div>
                       <div className="mx-1">
                         <p style={{ fontSize: "14px",textTransform:"uppercase",fontWeight:"bold" }}>
@@ -112,11 +111,10 @@ const CourseSlider = ({Course,handleShow}) => {
                   </div>
                   <div className="row mt-3">
                     {/* <div></ */}
-                    <div className="col-6 d-flex">
+                    <div className="col-6 d-flex align-items-start">
                       <div>
-                        <PiCertificateFill
-                          style={{ fontSize: "30px", color: "#3bb995" }}
-                        />
+                       
+                        <i class="fa-regular fa-file-certificate text-success" style={{fontSize:"24px"}}></i>
                       </div>
                       <div className="mx-1">
                         <p style={{ fontSize: "14px",textTransform:"uppercase",fontWeight:"bold"}}>
@@ -127,11 +125,9 @@ const CourseSlider = ({Course,handleShow}) => {
                         </p>
                       </div>
                     </div>
-                    <div className="col-6 d-flex">
+                    <div className="col-6 d-flex align-items-start">
                       <div>
-                        <MdOutlineAccessTimeFilled
-                          style={{ fontSize: "30px", color: "#3bb995" }}
-                        />
+                      <i class="fa-regular fa-calendar-week text-success" style={{fontSize:"24px"}}></i>
                       </div>
                       <div className="mx-1">
                         <p style={{ fontSize: "14px",textTransform:"uppercase",fontWeight:"bold" }}>

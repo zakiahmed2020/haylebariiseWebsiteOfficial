@@ -1837,15 +1837,15 @@ button {
 
 /*----- TESTIMONIAL START-----*/
 .tf___testimonial {
-  background-position: center !important;
+  /* background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
-  background-image: url(../images/testimonial_bg.jpg);
+  background-image: url(../images/testimonial_bg.jpg); */
 }
 
 .tf___testimonial .tf__heading_area h5,
 .tf___testimonial .tf__heading_area h2 {
-  color: var(--colorWhite);
+  /* color: var(--colorWhite); */
 }
 
 .tf___testimonial .tf__heading_area h5::after,
@@ -4603,7 +4603,7 @@ button {
 
 .tf__single_testimonial_2 {
   background: var(--colorWhite);
-  border: none;
+  border: 1px solid #002f6c;
   padding: 40px;
 }
 
@@ -4622,7 +4622,7 @@ button {
 .tf__single_testimonial_2 .icon {
   color: var(--colorBlue) !important;
   background: var(--colorWhite) !important;
-  border-bottom: 3px solid #002f6c;
+  /* border-bottom: 3px solid #002f6c; */
 }
 
 .tf__single_testimonial_2:hover {

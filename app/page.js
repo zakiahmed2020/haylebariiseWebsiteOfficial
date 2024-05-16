@@ -12,6 +12,8 @@ import Suporters from "@/component/home/Suporters";
 import WhyStudy from "@/component/home/whyStudy";
 import VideoModal from "@/component/modal/VideoModal";
 import NavbarSection from "@/component/navbar/NavbarSection";
+import TestimonialSection from "@/component/testimonial/TestimonialSection";
+import TestimonialSection2 from "@/component/testimonial/TestimonialSection2";
 // import TeamSection from "@/component/team/TeamSection";
 // import AboutSection from "@/component/about/AboutSection";
 import TopbarSection from "@/component/topbar/TopbarSection";
@@ -45,6 +47,7 @@ export default function Home3() {
       <ActivitySection2 style="tf__activities_3 tf__activities_slider_area mt_100 pt_95 pb_100" />
       <WhyStudy />
       {/* <BlogSection2 /> */}
+      <TestimonialSection />
       <Suporters />
       <FooterSection2
         style="tf__footer_3"

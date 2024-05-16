@@ -6,7 +6,7 @@ const Suporters = () => {
       <div className="tf__heading_area mb_20">
               <h5>Supported by</h5>
       </div>
-      <div className='d-flex justify-content-between suporters gap-4 flex-md-nowrap flex-sm-wrap '>
+      <div className='d-flex justify-content-between suporters gap-4 flex-wrap flex-md-nowrap'>
         <img src="/images/somalia.webp" alt="" />
         <img src="/images/norwaySomalia.webp" alt="" />
         <img src="/images/europeanUnion.webp" alt="" />

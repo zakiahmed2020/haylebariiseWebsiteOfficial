@@ -291,33 +291,27 @@ const workData = [
 ];
 
 const testimonialData = [
-  {
-    id: 0,
-    desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour",
-    imgSrc: "images/client_img_1.png",
-    name: "Andrew James",
-    designation: "Developer",
-  },
+  
   {
     id: 1,
-    desc: "I am extremely satisfied with the quality of education provided by this institution. It has helped me grow both academically and personally.",
-    imgSrc: "images/client_img_2.png",
-    name: "Emily Smith",
-    designation: "Student",
+    desc: "Studying Building and Construction, HBTDC have been very supportive with female skill training and I have enjoyed my time at Hayle Barise so much I would recommend its training program",
+    imgSrc: "/images/testinomial-fardowsa.webp",
+    name: "Fardowsa",
+    designation: "Civil Engineer",
   },
   {
     id: 2,
-    desc: "The dedicated faculty and staff at this school make learning a joyful experience. I couldn't have asked for a better educational environment.",
-    imgSrc: "images/client_img_3.png",
-    name: "John Doe",
-    designation: "Parent",
+    desc: "Studying Electrical Installtion has helped me work on new constructions in my community. I work on electric installation on new buildings and help my neighbours if they have electric or wire issues",
+    imgSrc: "/images/testinomial-mohamed.webp",
+    name: "Mohamed",
+    designation: "Electrical Engineer",
   },
   {
-    id: 3,
-    desc: "This institution has exceeded my expectations in terms of academic excellence and extracurricular activities. I highly recommend it to all students and parents.",
-    imgSrc: "images/client_img_2.png",
-    name: "Lisa Anderson",
-    designation: "Alumnus",
+    id: 0,
+    desc: "As a first-year student, I’ve enjoyed practicing using hand tools and this will help my future employment",
+    imgSrc: "/images/testinomial-abdinajib.webp",
+    name: "Abdinajib",
+    designation: "Student",
   },
 ];
 

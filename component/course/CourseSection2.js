@@ -27,6 +27,7 @@ const CourseSection2 = () => {
     async function getCourse() {
       try {
         const getData = await fetch(
+          
           "https://haylebariiseapi.up.railway.app/course"
         );
         const res = await getData.json();

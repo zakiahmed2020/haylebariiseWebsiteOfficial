@@ -1,7 +1,5 @@
-import AboutSection3 from "@/component/about/AboutSection3";
 import ActivitySection2 from "@/component/activity/ActivitySection2";
 import BannerSection3 from "@/component/banner/BannerSection3";
-import BlogSection2 from "@/component/blog/BlogSection2";
 import CategorySection3 from "@/component/category/CategorySection3";
 // import CategorySection from "@/component/category/CategorySection";
 
@@ -13,12 +11,13 @@ import WhyStudy from "@/component/home/whyStudy";
 import VideoModal from "@/component/modal/VideoModal";
 import NavbarSection from "@/component/navbar/NavbarSection";
 import TestimonialSection from "@/component/testimonial/TestimonialSection";
-import TestimonialSection2 from "@/component/testimonial/TestimonialSection2";
 // import TeamSection from "@/component/team/TeamSection";
 // import AboutSection from "@/component/about/AboutSection";
 import TopbarSection from "@/component/topbar/TopbarSection";
 import ScrollToTopButton from "@/component/utils/ScrollToTopButton";
 import VideoSection from "@/component/video/VideoSection";
+
+
 
 
 

@@ -1,3 +1,4 @@
+
 import { EduorProvider } from "@/context/EduorContext";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@/public/css/all.min.css";
@@ -10,6 +11,11 @@ import { ToastContainer } from "react-toastify";
 import { Readex_Pro } from "next/font/google";
 
 const readExPro = Readex_Pro({style:"normal",display:"auto",weight:"variable",subsets:["latin"],variable:"--headingFont"});
+
+export const metadata = {
+  title: "Hayle Bariise",
+  description: "Hayle Barise Technical Development Centre is a vibrant hub for learning merging raw technical talent with academic excellence.",
+};
 
 export default function RootLayout({ children }) {
   return (
